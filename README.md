@@ -1,4 +1,9 @@
-# vue_spa_frontend
+# Single Page Application based in VueJS2
+
+## API Rails 6
+
+(https://github.com/kevinafernandez/api_rails_backend)
+
 
 ## Project setup
 ```
@@ -8,21 +13,6 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
 ```
 
 ### Customize configuration
