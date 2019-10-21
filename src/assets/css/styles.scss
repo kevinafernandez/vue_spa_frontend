@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+body {
+    background-color: #edf2f7 !important;
+    font-family: Poppins-Regular !important;
+}
+
+nav {
+    background: linear-gradient(120deg, #3957f4 23%, #2f87ee 90%);
+    margin-bottom: 3rem;
+    & a {
+        color: white !important;
+    }
+    & .dropdown-item {
+        color: #504f4f !important;
+        &:hover {
+            background: linear-gradient(120deg, #3957f4 23%, #2f87ee 90%);
+            color: white !important;
+        }
+    }
+}
+
+.content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
